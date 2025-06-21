@@ -1,16 +1,18 @@
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mrbkavko"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
+<!-- Elegant Contact Form -->
+<form action="https://formspree.io/f/mrbkavko" method="POST" style="max-width: 500px; margin: 40px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); font-family: Arial, sans-serif; color: #1e3a8a;">
+  <h2 style="margin-bottom: 20px; text-align: center;">Contact Support</h2>
+
+  <label style="display: block; margin-bottom: 10px;">
+    Your Email:
+    <input type="email" name="email" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
   </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
+
+  <label style="display: block; margin-bottom: 20px;">
+    Your Message:
+    <textarea name="message" rows="6" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
   </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+
+  <button type="submit" style="width: 100%; padding: 12px; background-color: #1e40af; color: white; border: none; border-radius: 5px; font-weight: bold; font-size: 16px; cursor: pointer;">
+    Send Message
+  </button>
 </form>
